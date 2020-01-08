@@ -26,3 +26,4 @@ var usuarioSchema= new Schema({
 usuarioSchema.plugin(uniqueValidator,{message:'{PATH}El email debe de ser unico'});
 
 module.exports =mongoose.model('Usuario',usuarioSchema);
+ 
